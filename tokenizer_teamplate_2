@@ -1,0 +1,12 @@
+from transformers import LlamaTokenizer
+
+tokenizer = LlamaTokenizer.from_pretrained("/home/yqj/llama-2-7b")
+
+text = "this is a sample sentence."
+
+tokens = tokenizer.tokenize(text)
+
+token_ids = tokenizer.convert_tokens_to_ids(tokens)
+
+print(tokens)
+print(token_ids)
