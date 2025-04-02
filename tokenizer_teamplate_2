@@ -9,4 +9,4 @@ tokens = tokenizer.tokenize(text)
 token_ids = tokenizer.convert_tokens_to_ids(tokens)
 
 print(tokens)
-print(token_ids)
+print(token_ids）
